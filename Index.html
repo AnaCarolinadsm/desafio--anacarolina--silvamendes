@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lanchonete</title>
+</head>
+<body>
+    <h1>Lanchonete</h1>
+
+    <form id="lanchonete-form">
+        <label for="formaPagamento">Forma de Pagamento:</label>
+        <select id="formaPagamento" name="formaPagamento">
+            <option value="dinheiro">Dinheiro</option>
+            <option value="debito">Débito</option>
+            <option value="credito">Crédito</option>
+        </select>
+
+        <br>
+
+        <label for="itens">Itens:</label>
+        <select id="itens" name="itens" multiple>
+            <option value="cafe,1">Café</option>
+            <option value="chantily,1">Chantily</option>
+            <option value="suco,1">Suco Natural</option>
+            <option value="sanduiche,1">Sanduíche</option>
+            <option value="queijo,1">Queijo</option>
+            <option value="salgado,1">Salgado</option>
+            <option value="combo1,1">1 Suco e 1 Sanduíche</option>
+            <option value="combo2,1">1 Café e 1 Sanduíche</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Calcular Valor</button>
+    </form>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
